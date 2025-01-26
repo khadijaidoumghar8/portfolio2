@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>khadija's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000" >
+                <span>Khadija</span>
+            </div>
+            <div class="links">
+                 <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" ><a href="#home" class="active">Home</a></div>
+                 <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"  ><a href="#educations">About</a></div>
+                 <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" ><a href="#services">services</a></div>
+                 <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" ><a href="#contact">Contact</a></div>
+
+            </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#educations">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact Us</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+        <section class="home" id="home">
+            <div class="main-container">
+                <div class="image" data-aos="zoom-in-right" data-aos-duration="2500" >
+                    <img src="anime.jpeg" alt="">
+                </div>  
+                <div class="content">
+                    <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500" >Hey I'm <span>Khadija <br> Idoumghar</span></h1>
+                    <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600" >I'm a <span></span></div>
+                    <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="700" style="width: 200px; font-weight: 700;" >a passionate student specializing in digital development. Welcome to my portfolio where I showcase my journey, skills, and projects in the world of web and software development.</p>
+                    <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="800" >
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="#"></a>
+                    </div>
+                    <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="900" >
+                        <button>Download CV</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="education" id="educations">
+            <h2 class="heading">Education</h2>
+
+            <div class="timeline-items">
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                        <div class="timeline-date">06/2024</div>
+                        <div class="timeline-content">
+                            <h3>High School</h3>
+                            <p>I successfully completed my high school education in 2024, where I developed a strong foundation in various academic disciplines. This achievement has prepared me for further studies and professional growth in the field of digital development.</p>
+                        </div>
+                    
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                        <div class="timeline-date">09/2024</div>
+                        <div class="timeline-content">
+                            <h3>University</h3>
+                            <p>I am currently pursuing my studies at Cités des Métiers et des Compétences, starting in September 2024, with the goal of becoming a proficient web and mobile developer. This program is providing me with comprehensive training in various aspects of digital development, equipping me with the skills and knowledge necessary to excel in the field.</p>
+                        </div>
+                    
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                        <div class="timeline-date">2025</div>
+                        <div class="timeline-content">
+                            <h3>Intership</h3>
+                            <p>I successfully completed a project, specifically a portfolio, to demonstrate the skills and knowledge I acquired during my time at Cités des Métiers et des Compétences. This project showcases my proficiency in various aspects of digital development and serves as a testament to my dedication and hard work throughout my studies</p>
+                        </div>
+                    
+                </div>
+
+                
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <h2 class="heading">Services</h2>
+
+            <div class="services-container">
+                
+
+                <div class="service-box">
+                    <div class="service-info">
+                        <h4>Fronted Developer</h4>
+                        <p>HTML: Proficient in creating structured and semantic web pages. <br>
+
+                            CSS: Skilled in designing responsive and visually appealing layouts. <br>
+                            
+                            Bootstrap: Experienced in using Bootstrap for rapid and efficient web development.</p>
+                    </div>
+                </div>
+
+                <div class="service-box">
+                    <div class="service-info">
+                        <h4>Backend Development</h4>
+                        <p>Currently learning the basics of backend development, including PHP, to enhance my ability to create dynamic and interactive web applications</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me</span>
+            </h2>
+
+            <form action="">
+                <div class="input-group">
+                    <div class="input-box">
+                        <input type="text" placeholder="Full Name">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="input-box">
+                        <input type="number" name="" placeholder="Phone Number" id="">
+                        <input type="text" name="" id="" placeholder="Subject"> 
+                    </div>
+                </div>
+
+                <div class="input-grooup-2">
+                    <textarea name="" cols="30" rows="10" placeholder="Your Message" id=""></textarea>
+                    <input type="submit" value="Send Message" class="btn" name="" id="">
+                </div>
+            </form>
+
+        </section>
+
+        <footer class="footer">
+            <div class="social">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+
+            </div>
+
+            <ul class="list">
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">About Me</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">Projects</a>
+                </li>
+            </ul>
+        </footer>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
+        <script>
+            function hamburg(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(0px)"
+            }
+            function cancel(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(-500px)"
+            }
+        </script>
+    
+</body>
+</html>
